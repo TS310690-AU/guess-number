@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Number Guessing Game - Guess the Number Between 1 and 100</title>
+      <meta name="description" content="Play the Number Guessing Game! Try to guess the secret number between 1 and 100 in as few attempts as possible. A fun and simple game for everyone.">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>
+        <div class="banner-container">
+          <img class="banner-image" src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1600&q=80" alt="Quiz Land Banner">
+        </div>
+      </header>
+      <div class="container">
+        <h1>Number Guessing Game</h1>
+        <p class="instructions">
+          I've chosen a number between 1 and 100. Try to guess it in as few attempts as possible.
+        </p>
+        <div class="input-group">
+          <input type="number" id="guessInput" placeholder="Enter your guess">
+          <button id="guessButton">Guess</button>
+        </div>
+        <p id="feedback"></p>
+        <p>Attempts: <span id="attempts">0</span></p>
+        <button id="newGameButton">New Game</button>
+      </div>
+      <footer>
+        <p><a href="https://quizlandhub.netlify.app">Visit Quiz Land Hub</a> for more fun and games</p>
+        <p>&copy; Quizlandhub 2024</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+    </html>
